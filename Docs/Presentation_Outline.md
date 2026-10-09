@@ -23,20 +23,8 @@ It consists of two interlocking, comb-like metal electrodes deposited on the cry
 *   **Finger Width:** Exactly $\lambda/4$ (99.5 µm)
 *   **Spacing:** Exactly $\lambda/4$ (99.5 µm)
 
-**Physical Diagram:**
-```text
-      (+) SIGNAL RAIL
-       │    │    │
-     ┌─┴─┐  │    │
-     │   │  │    │
-     │ ┌─┤  ├─┐  ├─┐
-     │ │ │  │ │  │ │
-     └─┤ └──┤ └──┤ │  ===> Acoustic Wave Launches Right
-       │    │    │ │
-      (-) GROUND RAIL
-```
 
----
+
 
 ## Slide 3: The SWIL XOR Gate (How it Works)
 **Concept:** Logic is performed purely by the physics of wave superposition (interference). 
