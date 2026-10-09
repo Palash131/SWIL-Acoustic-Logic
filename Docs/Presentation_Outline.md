@@ -1,4 +1,4 @@
-c:\Users\ashut\.gemini\antigravity\brain\71786bf2-7b5a-4408-b124-4b26afd48f93\SWIL_Presentation_Outline.doc# Presentation Outline: Strain Wave Interference Logic (SWIL)
+
 
 ## Slide 1: What is SWIL and How is it Built?
 **Concept:** SWIL replaces silicon transistors with sound waves. Instead of computing with flows of electrons, it computes using the physical interference of phonons (Surface Acoustic Waves) on a crystal.
@@ -10,17 +10,7 @@ c:\Users\ashut\.gemini\antigravity\brain\71786bf2-7b5a-4408-b124-4b26afd48f93\SW
 4. **Interference Node:** The central Y-junction where the waves physically crash into each other.
 5. **Output IDT & Envelope Detector:** Converts the resulting mechanical vibration back into a standard DC electrical logic output.
 
-**System Diagram:**
-```mermaid
-graph LR
-    A[Input A IDT] -->|Acoustic Wave| Y(Interference Node)
-    B[Input B IDT] -->|Acoustic Wave| Y
-    Y -->|Superposition| O[Output IDT]
-    O -->|AC to DC| E[Envelope Detector]
-    E -->|Digital Logic| OUT((Output))
-```
 
----
 
 ## Slide 2: The Heart of the Machine — The IDT
 **Concept:** The Interdigital Transducer (IDT) is the bridge between the electrical and acoustic domains. 
